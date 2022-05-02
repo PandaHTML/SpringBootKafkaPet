@@ -6,7 +6,8 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="SpringKafkaPet" />
+        <module name="Producer" />
+        <module name="Consumer" />
       </profile>
     </annotationProcessing>
   </component>
