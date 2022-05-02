@@ -1,0 +1,6 @@
+/Users/daniilkrizhanovsky/IdeaProjects/demo/SpringKafkaPet/Consumer/src/main/java/com/krizhanovsky/consumer/config/ConsumerConfig.java
+/Users/daniilkrizhanovsky/IdeaProjects/demo/SpringKafkaPet/Consumer/src/main/java/com/krizhanovsky/consumer/ConsumerStarter.java
+/Users/daniilkrizhanovsky/IdeaProjects/demo/SpringKafkaPet/Consumer/src/main/java/com/krizhanovsky/consumer/repository/PersonRepository.java
+/Users/daniilkrizhanovsky/IdeaProjects/demo/SpringKafkaPet/Consumer/src/main/java/com/krizhanovsky/consumer/entity/Person.java
+/Users/daniilkrizhanovsky/IdeaProjects/demo/SpringKafkaPet/Consumer/src/main/java/com/krizhanovsky/consumer/config/TopicConfig.java
+/Users/daniilkrizhanovsky/IdeaProjects/demo/SpringKafkaPet/Consumer/src/main/java/com/krizhanovsky/consumer/service/PersonService.java

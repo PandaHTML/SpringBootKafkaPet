@@ -1,0 +1,6 @@
+com/krizhanovsky/consumer/config/ConsumerConfig.class
+com/krizhanovsky/consumer/config/TopicConfig.class
+com/krizhanovsky/consumer/repository/PersonRepository.class
+com/krizhanovsky/consumer/ConsumerStarter.class
+com/krizhanovsky/consumer/entity/Person.class
+com/krizhanovsky/consumer/service/PersonService.class
