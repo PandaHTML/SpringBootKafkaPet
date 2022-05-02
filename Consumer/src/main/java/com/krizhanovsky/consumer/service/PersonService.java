@@ -8,18 +8,27 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.kafka.annotation.KafkaListener;
 import org.springframework.stereotype.Service;
 
+import java.util.Objects;
+
 @Service
 public class PersonService {
 
     @Autowired
     private PersonRepository personRepository;
 
-    @KafkaListener(topics="petData",
+    @KafkaListener(topics="json",
             groupId="groupId")
-    public void getPerson(String data) throws JsonProcessingException {
+    public void getPersonInJson(String data) throws JsonProcessingException {
         System.out.println("Kafka Listener received: " + data);
         Person person = new ObjectMapper().readValue(data,Person.class);
         personRepository.save(person);
     }
+
+    @KafkaListener(topics="xml",
+            groupId="groupId")
+    public void getPersonInXml(String data)  {
+        personRepository.save(Objects.requireNonNull(DOMParser.parse(data)));
+    }
+
 }
 

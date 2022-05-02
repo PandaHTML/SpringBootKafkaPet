@@ -8,7 +8,10 @@ import org.springframework.kafka.config.TopicBuilder;
 @Configuration
 public class TopicConfig {
     @Bean
-    public NewTopic goondoolfTopic(){
-        return TopicBuilder.name("petData").build();
+    public NewTopic jsonTopic(){
+        return TopicBuilder.name("json").build();
     }
+
+    @Bean
+    public NewTopic xmlTopic(){return TopicBuilder.name("xml").build();}
 }

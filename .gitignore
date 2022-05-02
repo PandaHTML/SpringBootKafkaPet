@@ -1,1 +1,5 @@
 /.idea/
+SpringKafkaPet.iml
+/Consumer/Consumer.iml
+/Producer/Producer.iml
+/Producer/src/main/java/com/krizhanovsky/producer/entity/Person.java

@@ -2,7 +2,9 @@ package com.krizhanovsky.producer.entity;
 
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
+import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+@JsonPropertyOrder({"id", "name", "graduationTime", "courses"})
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class Person {
     String name;
