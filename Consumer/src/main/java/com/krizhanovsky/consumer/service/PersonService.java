@@ -26,7 +26,7 @@ public class PersonService {
 
     @KafkaListener(topics="xml",
             groupId="groupId")
-    public void getPersonInXml(String data)  {
+    public void getPersonInXml(String data) {
         personRepository.save(Objects.requireNonNull(DOMParser.parse(data)));
     }
 
